@@ -1,0 +1,49 @@
+/** GMBC admin styles */
+
+.gmbc-star {
+  font-size: 16px;
+  color: #ffa500;
+}
+
+.gmbc-star.empty-star {
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+img.gmbc-photo {
+  width: 75px;
+  height: 75px;
+}
+
+.gmbc-ordered-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gmbc-wrap h2 {
+  font-size: 1.8em !important;
+}
+
+.gmbc-wrap h3 {
+  font-size: 1.5em;
+}
+
+.gmbc-wrap.gmbc-shortcode-support {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px #afafaf;
+  padding: 3%;
+}
+
+.gmbc-table {
+  border: 2px solid #ededed;
+  padding: 3%;
+}
+
+.gmbc-table td, .gmbc-table th {
+  border: 2px solid #ededed;
+  padding: 2%;
+  width: 30%;
+  text-align: center;
+}

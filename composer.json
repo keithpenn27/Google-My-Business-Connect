@@ -1,0 +1,20 @@
+{
+    "require": {
+        "google/apiclient": "2.11",
+        "bronhy/google-my-business-php-client": "4.9",
+        "defuse/php-encryption": "^2.3"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "MyBusinessAccountManagement",
+            "MyBusinessBusinessInformation",
+            "MyBusinessLodging",
+            "MyBusinessNotificationSettings",
+            "MyBusinessPlaceActions",
+            "MyBusinessVerifications"
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+/** GMBC admin styles */
+
+.gmbc-star {
+  font-size: 16px;
+  color: #ffa500;
+}
+
+.gmbc-star.empty-star {
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+img.gmbc-photo {
+  width: 75px;
+  height: 75px;
+}
+
+.gmbc-reviews {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+h2.gmbc-reviews-heading {
+  font-size: 1.4em;
+}
+
+.gmbc-reviews .pagination-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.gmbc-reviews .pagination-links .reviews-pagination {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.gmbc-reviews .gmbc-reviews-header .reviews-logo {
+  width: 60px;
+  height: auto;
+}
+
+.gmbc-reviews .button {
+  display: inline-block;
+}
+
+.gmbc-reviews .gmbc-review {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 5% 2%;
+}
+
+@media screen and ( min-width: 992px ) {
+  .gmbc-reviews .gmbc-review {
+    flex-flow: row;
+  }
+}
+
+.gmbc-reviews .gmbc-review .reviewer-photo {
+  flex-basis: 15%;
+  margin-bottom: 15px;
+}
+
+.gmbc-reviews .gmbc-review .review {
+  flex-basis: 85%;
+  line-height: 1.1em;
+}
+
+.gmbc-reviews .gmbc-review .review .display-name {
+  line-height: 22px;
+}
+
+.gmbc-reviews .gmbc-review .review .gmbc-rating, 
+.gmbc-reviews .gmbc-review .review .gmbc-star-rating .review-time {
+  font-size: 0.85rem;
+}
+
+.gmbc-reviews .gmbc-review .review .gmbc-review-comment {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.gmbc-reviews .gmbc-reviews-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: 5% 2%;
+}
+
+.gmbc-reviews .gmbc-reviews-footer {
+  padding: 2%;
+}
+
+.gmbc-reviews .gmbc-reviews-header .reviews-brand {
+  flex-basis: 15%;
+}
+
+.gmbc-reviews .gmbc-reviews-header .gmbc-heading-info {
+  flex-basis: 87%;
+}
+
+.gmbc-reviews .gmbc-reviews-header .gmbc-heading-info a.map-link {
+  display: block;
+  width: fit-content;
+}
+
+.gmbc-reviews .gmbc-heading-info .average-rating, .gmbc-reviews .gmbc-heading-info .total-reviews {
+  color: gray;
+  font-size: 1rem;
+}
